@@ -1,0 +1,89 @@
+div.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div.form{
+    margin-top:80px;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+        background: transparent;
+        backdrop-filter: blur(4px);
+        padding: 100px;
+        border-radius: 30px;
+        /* border: 2px solid black; */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+div.im{
+    position: absolute;
+    right: 1px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input,button,textarea{
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.479);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input label {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    color: black;
+    font-weight: bold;
+    pointer-events: none;
+    transition: 0.3s ease;
+    opacity: 0.7;
+}
+
+.input input,
+.input textarea {
+    width: 300px;
+    padding: 12px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.input input:focus+label,
+.input input:not(:placeholder-shown)+label,
+.input textarea:focus+label,
+.input textarea:not(:placeholder-shown)+label {
+    top: -10px;
+    left: 29px;
+    font-size: 18px;
+    opacity: 1;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 20px;
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+}
+h1.title{
+    position: absolute;
+    top: 25px;
+    left:30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: black;
+}
